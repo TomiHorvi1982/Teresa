@@ -1,0 +1,6 @@
+{
+  "name": "Poslední Společná Noc",
+  "description": "Důvěrný průvodce pro klidné, nostalgické a intimní rozloučení s partnerem na společné cestě.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Cinzel", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  
+  /* Rose gold & wine colors */
+  --color-rose-gold: #b76e79;
+  --color-rose-gold-light: #d4a5ab;
+  --color-wine-dark: #12020a;
+  --color-wine-medium: #1a0916;
+  --color-wine-light: #2d1424;
+  --color-crimson-subtle: #4a121a;
+  --color-gold-glow: #e5b3b9;
+}
+
+/* Custom glow utility classes */
+.rose-glow {
+  text-shadow: 0 0 10px rgba(183, 110, 121, 0.4), 0 0 20px rgba(183, 110, 121, 0.2);
+}
+
+.box-rose-glow {
+  box-shadow: 0 0 20px rgba(183, 110, 121, 0.15), inset 0 0 15px rgba(183, 110, 121, 0.05);
+}
+
+.inner-rose-glow {
+  box-shadow: inset 0 0 25px rgba(183, 110, 121, 0.1);
+}
+
+/* Hide scrollbar but keep functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body {
+  background: radial-gradient(circle at 50% 50%, #1a0916 0%, #12020a 100%);
+  color: #f5f2ed;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
